@@ -6,7 +6,7 @@ export default function Page() {
     <div>    
 	  <div className={styles.header}>
       <h1> M Wong</h1>
-	  <h3>My personal blog</h3>
+	  <h3>My personal site</h3>
 	  <br />
 	  </div>
 	  <div>
@@ -15,7 +15,7 @@ export default function Page() {
       
 	  <h2>Home</h2>	  
 	  
-	  <p>Welcome to my personal blog. I am a researcher in computer vision and machine learning 
+	  <p>Welcome to my personal site. I am a researcher in computer vision and machine learning 
 	  with Ph.D in Computer Science, M.Sc and B.Sc(Hons.) in Electronic Engineering. I am also 
 	  interested in web app development. This site is built by using Next.js, JavaScript, 
 	  HTML and CSS. This site is hosted by GitHub Pages.</p>
