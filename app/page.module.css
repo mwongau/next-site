@@ -1,9 +1,10 @@
 .header {
-  color: purple;
-  background-color: Lavender;
-  padding: 3px;
+	color: purple;
+	background-color: Lavender;
+	padding: 3px;
 }  
 
 .footer {
-  background-color: AliceBlue;
+	background-color: AliceBlue;
 }
+

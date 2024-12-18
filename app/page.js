@@ -1,17 +1,12 @@
-import styles from './page.module.css'
 import Link from 'next/link';
+import styles from './page.module.css'
 
 export default function Page() {
   return (
     <div>    
-	  <div className={styles.header}>
-      <h1> M Wong</h1>
-	  <h3>My personal site</h3>
+	  
+	  
 	  <br />
-	  </div>
-	  <div>
-	  <br />
-	  <p><Link href="/posts"> Go to blog </Link></p> 
       
 	  <h2>Home</h2>	  
 	  
@@ -22,7 +17,7 @@ export default function Page() {
 	  
 	  <p className={styles.footer}>This site might use cookies to improve the browsing experience of users. If you 
 	  continue to use this site, it will be assumed that you agree to the use of cookies.</p> 
-      </div>
+      
     </div>
   );
 }
