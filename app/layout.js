@@ -31,7 +31,8 @@ export default function RootLayout({ children }) {
 	    </div>
 		<div className={styles.nav}>
 		<Link href= '/'>Home</Link> | <Link href='/posts'>Blog</Link> | 
-		<Link href= '/cv'> CV</Link> | <Link href='/photos'>Photos</Link>
+		<Link href= '/cv'> CV</Link> | <Link href='/photos'>Photos</Link> |
+		<Link href='/privacy'> Privacy</Link>
 		</div>
         {children}
       </body>
