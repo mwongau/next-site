@@ -10,7 +10,7 @@
 
 # next.js
 /.next/
-# /out/
+/out/
 
 
 # production
@@ -36,5 +36,4 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-globals0.css
 
