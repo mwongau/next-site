@@ -3,11 +3,10 @@ function Privacy() {
     <div>	
 	<h2>Privacy Policy</h2>
 	<h3>Who we are</h3>
-	<p>Our website address is: https://mwongau.github.io/mysite</p>
+	<p>Our website address is: https://mwongau.github.io/next-site</p>
 	<p>This is the personal site of M. Wong.</p>
 	
 	<h3>Contact</h3>
-	<p>GitHub: https://github.com/mwongau </p>
 	<p>Email: mwong[at]mwongsite.com, replace [at] by @ </p>
 	<p>If you contact the site author by email, your name, 
 		email address and other information you provide to the 

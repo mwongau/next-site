@@ -3,7 +3,7 @@
 
 const nextConfig = {
 	
-	basePath: '/mysite',
+	basePath: '/next-site',
 	output: 'export',
 	images: { unoptimized: true } 
 }

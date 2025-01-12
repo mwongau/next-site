@@ -8,9 +8,9 @@ import React, { useState } from 'react';
 export default function Page() {
   const [count, setCount] = useState(0);
   function handleClick() {
-    setCount((count + 1) % 2);
+    setCount((count + 1) % images.length);
   }	  
-  let images = ["/mysite/uts-bldg5.jpg", "/mysite/acu.jpg"];
+  let images = ["/next-site/uts-bldg5.jpg", "/next-site/acu.jpg"];
   let desc = ["University of Technology Sydney, Building 5", "Australian Catholic University, Strathfield Campus"];
   let alts = ["uts", "acu"]; 
   
