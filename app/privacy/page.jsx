@@ -1,26 +1,32 @@
-function Privacy() {
+export default function Privacy() {
   return (
     <div>	
-	<h2>Privacy Policy</h2>
-	<h3>Who we are</h3>
-	<p>Our website address is: https://mwongau.github.io/next-site</p>
-	<p>This is the personal site of M. Wong.</p>
+	<h2>Privacy Notice</h2>
 	
-	<h3>Contact</h3>
-	<p>Email: mwong[at]mwongsite.com, replace [at] by @ </p>
-	<p>If you contact the site author by email, your name, 
-		email address and other information you provide to the 
-		site author will be stored in the email account of the site 
-		author.</p>
-		
-	<h3>Cookies</h3>
-	<p>This website might use cookies to improve your experience of 
-	using the site. If you continue to use this site, it will be 
-	assumed that you agree to the use of cookies.</p>
+	<p>This is the personal site of M Wong.</p>
+	
+	<p>This website is hosted on GitHub Pages. The web hosting company may collect certain 
+	technical information from visitors — such as IP addresses, browser type, date and time of 
+	access, and pages requested — for security, performance monitoring, proper operation of 
+	the hosting platform, and debugging. This type of server logging is standard for most 
+	hosting providers. I do not have access to these server logs.</p>
 
-	<p>The above privacy policy can be changed at any time by 
-	the site author without giving notice.</p>	
+    <p>This site does not use cookies for analytics, advertising, or tracking.</p>
+
+    <p>For details about GitHub’s privacy practices, please refer to GitHub’s Privacy Statement:
+	</p>
+    <p>https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement</p>
+    
+    <h3>Contact</h3>
+    <p>If you have questions about this privacy notice, please contact me at:</p>
+    <p>mwong[at]mwongsite[dot]com, please replace "[at]" by "@", "[dot]" by "."</p>
+
+    <p>If you contact me by email, your email address and message will be stored in my email 
+	account solely for the purpose of responding to your inquiry. I do not share this 
+	information with third parties.</p>
+
+    <p>This privacy notice may be updated by the site author at any time without prior notice.
+	</p>
 	</div>
 );
 }
-export default Privacy;	
